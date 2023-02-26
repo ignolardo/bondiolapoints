@@ -138,7 +138,7 @@ async function secondMode(req, res)
             {
                 usersArray.push({"user":_email, "points":1});
                 usersData.value = JSON.stringify(userDataJSON);
-                otherDataJSON.userLength = otherDataJSON.userLenght + 1;
+                otherDataJSON.userLength = otherDataJSON.userLength + 1;
             }
             
             // Try to save and add an used code
