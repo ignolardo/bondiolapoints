@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./index.js",
     "dev": "nodemon ./index.js",
     "keys": "run-func codes.js keys",
     "generate": "run-func codes.js generate",
