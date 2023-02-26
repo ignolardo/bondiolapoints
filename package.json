@@ -1,0 +1,28 @@
+{
+  "name": "qrpoints",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "keys": "run-func codes.js keys",
+    "generate": "run-func codes.js generate",
+    "decrypt": "run-func codes.js decrypt",
+    "resetSheet": "run-func codes.js reset"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^105.0.0",
+    "node-fetch": "^2.6.1",
+    "node-rsa": "^1.1.1",
+    "run-func": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
